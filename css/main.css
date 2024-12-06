@@ -1,0 +1,131 @@
+html, body {
+	height: 100%;
+	font-family: "Montserrat", sans-serif; 
+	font-size: 15px;
+	position: relative;
+  	margin-top: 30px;
+	background: #f9faf9;
+}
+
+.container {
+	position: relative;
+  }  
+
+
+.jumbotron {
+	padding: 50px 20px; 
+	color: #13181f;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.jumbotron p {
+	font-family: "Montserrat", sans-serif; 
+	font-weight: 200;
+	font-size: x-small;
+}
+
+
+
+
+section {
+    padding-top:80px;
+}
+
+
+a {color: inherit;
+	text-decoration: none;}
+
+a:hover {
+	color: #f25c05;
+}
+
+
+h5, h3 {
+font-family: "Bebas Neue", sans-serif;
+ color: #13181f;
+}
+
+.form-check-input:checked {
+background-color: #f25c05;
+border-color: #f25c05;
+}
+
+.bg-light {
+	background-color: #f9faf9 !important;
+}
+
+.bg-light .navbar-nav .nav-link {
+	color: #13181f !important;
+}
+
+.bg-light .navbar-nav .nav-link:hover {
+color: #f25c05 !important;
+}
+
+.card {
+	border: none;
+}
+
+.btn {
+	background-color: #fff; 
+	border-color: #f25c05;
+	color: #f25c05;
+}
+
+.btn:hover {
+	border-color: #f25c05;
+	color: #fff;
+	background-color: #f25c05;
+}
+
+.accordion-body {
+	text-align: justify;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #f25c05;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 1);
+}
+
+.accordion-button.collapsed {
+	color: #13181f;;
+	background-color: #fff;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);}
+
+	.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(-180deg);
+}
+
+
+.img-fluid {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-toggler {
+	border: 1px solid #f25c05;
+}
+
+.navbar-toggler-icon {
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+
+	.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#workshop, #members {
+	background-color: #fff !important;
+
+}
+
+#events {
+	background-color: #449ad5 !important;}
+
+.panel-footer {
+	background-color: #13181f !important; 
+	color: #fff !important;
+}
