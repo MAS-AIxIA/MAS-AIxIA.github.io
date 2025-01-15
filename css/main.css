@@ -137,3 +137,46 @@ color: #f25c05 !important;
 	background-color: #13181f !important; 
 	color: #fff !important;
 }
+
+/* Ensure images are consistent in size */
+.card-img-container {
+	height: 180px;
+	overflow: hidden;
+}
+.card-img-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Make cards uniform */
+.card {
+	height: 100%;
+}
+
+/* Adjust carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+	width: 5%; /* Reduce button size width */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	border-radius: 50%; /* Make it circular */
+	padding: 10px; /* Add some padding for larger click area */
+}
+
+@media (min-width: 768px) {
+	.carousel-control-prev,
+	.carousel-control-next {
+		transform: translateX(-50%); /* Push buttons closer to the edges */
+	}
+
+	.carousel-control-prev {
+		left: -2rem; /* Move to the far left */
+	}
+
+	.carousel-control-next {
+		right: -2rem; /* Move to the far right */
+	}
+}
