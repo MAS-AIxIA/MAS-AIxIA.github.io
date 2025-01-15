@@ -119,7 +119,6 @@ color: #f25c05 !important;
 
 .light {
 	background-color: #f9faf9 !important;
-
 }
 
 .light .card {
@@ -127,11 +126,16 @@ color: #f25c05 !important;
 } 
 
 .dark {
-	background-color: #449ad5 !important;}
+	background-color: #449ad5 !important;
+}
 
 .dark .card {
 	background-color:#f9faf9;
 } 
+
+.dark h3 {
+	color:#f9faf9;
+}
 
 .panel-footer {
 	background-color: #13181f !important; 
