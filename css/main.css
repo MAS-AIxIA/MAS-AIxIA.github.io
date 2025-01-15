@@ -117,13 +117,21 @@ color: #f25c05 !important;
     box-shadow: none;
 }
 
-#workshop, #members {
-	background-color: #fff !important;
+.light {
+	background-color: #f9faf9 !important;
 
 }
 
-#events {
+.light .card {
+	background-color:#449ad5;
+} 
+
+.dark {
 	background-color: #449ad5 !important;}
+
+.dark .card {
+	background-color:#f9faf9;
+} 
 
 .panel-footer {
 	background-color: #13181f !important; 
